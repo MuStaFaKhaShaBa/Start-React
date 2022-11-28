@@ -1,0 +1,12 @@
+.d-flex-center {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.social a {
+    width: 3rem;
+    height: 3rem;
+}
+.social a svg {
+    font-size: 1.4rem;
+}

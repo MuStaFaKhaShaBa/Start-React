@@ -1,0 +1,34 @@
+.navbar a {
+    transition: 0.3s;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0.25rem 0.25rem var(--bs-primary) !important;
+}
+.navbar a:hover {
+    color: var(--bs-primary);
+}
+
+.navbar .nav-link {
+    border: 2px solid var(--bs-secondary);
+}
+.navbar .nav-link.active {
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+.navbar .nav-link.active:hover {
+    background-color: transparent;
+    color: var(--bs-primary);
+}
+.navbar .navbar-toggler{
+    background-color: var(--bs-primary);
+    padding: .75rem 1rem;
+}
+@media (max-width: 768px) {
+    .navbar .navbar-toggler{
+        padding: .25rem .75rem;
+    }
+    .navbar .navbar-toggler p{
+        display: none !important;
+    }
+    
+}

@@ -1,0 +1,10 @@
+.input:focus + label {
+    transform: scale(0.85) translateY(-1.3rem) translateX(0.15rem) !important;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+}
+textarea.textarea-height{
+    height: 6rem !important;
+}
